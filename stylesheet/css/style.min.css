@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #202020;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Form controls */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="file"]:focus,
+.custom-file-input:focus,
+.custom-file-label:focus,
+textarea.form-control:focus,
+select.custom-select:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #97D34A;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="time"]::-webkit-input-placeholder,
+input[type="file"]::-webkit-input-placeholder,
+.custom-file-input::-webkit-input-placeholder,
+.custom-file-label::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder,
+select.custom-select::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder,
+input[type="time"]:-ms-input-placeholder,
+input[type="file"]:-ms-input-placeholder,
+.custom-file-input:-ms-input-placeholder,
+.custom-file-label:-ms-input-placeholder,
+textarea.form-control:-ms-input-placeholder,
+select.custom-select:-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]::-ms-input-placeholder,
+input[type="number"]::-ms-input-placeholder,
+input[type="email"]::-ms-input-placeholder,
+input[type="password"]::-ms-input-placeholder,
+input[type="date"]::-ms-input-placeholder,
+input[type="time"]::-ms-input-placeholder,
+input[type="file"]::-ms-input-placeholder,
+.custom-file-input::-ms-input-placeholder,
+.custom-file-label::-ms-input-placeholder,
+textarea.form-control::-ms-input-placeholder,
+select.custom-select::-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="date"]::placeholder,
+input[type="time"]::placeholder,
+input[type="file"]::placeholder,
+.custom-file-input::placeholder,
+.custom-file-label::placeholder,
+textarea.form-control::placeholder,
+select.custom-select::placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="time"]::-webkit-input-placeholder,
+input[type="file"]::-webkit-input-placeholder,
+.custom-file-input::-webkit-input-placeholder,
+.custom-file-label::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder,
+select.custom-select::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder,
+input[type="time"]:-ms-input-placeholder,
+input[type="file"]:-ms-input-placeholder,
+.custom-file-input:-ms-input-placeholder,
+.custom-file-label:-ms-input-placeholder,
+textarea.form-control:-ms-input-placeholder,
+select.custom-select:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-control + .text-danger.hide {
+  display: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.display-6 {
+  font-size: 1.3em;
+}
+
+.display-5 {
+  font-size: 1.6em;
+}
+
+.display-4 {
+  font-size: 1.9em;
+}
+
+.default-bg {
+  background-color: #E5E5E5;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #4A6B31;
+  color: #ffffff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.title-wrapper {
+  background-color: #363020;
+}
+
+/* Buttons */
+.btn {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border: none;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #4A6B31;
+}
+
+.btn-primary:hover {
+  background-color: #97D34A;
+}
+
+.brand-component .brand-logo-sm {
+  max-width: 50px;
+}
+
+.brand-component .brand-tagline {
+  color: #F6F6F6;
+}
+
+.brand-component .brand-tagline:hover {
+  text-decoration: none;
+  color: #97D34A;
+}
+
+.index-page-container {
+  height: 100vh;
+}
+
+.index-page-container > * {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .index-page-container .index-image {
+    width: 50%;
+    background-image: url(../../assets/images/pexels-energepiccom-175039.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.index-form-selector {
+  background-color: #F6F6F6;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .index-form-selector {
+    width: 50%;
+  }
+}
+
+.index-form-selector > div {
+  margin-top: 4em;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.custom-navbar {
+  background-color: #3E413C;
+}
+
+.form-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dropdown-menu.default-bg {
+  margin-left: -50% !important;
+}
+/*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,60 @@
+@import "_base";
+@import "_sharedClasses";
+
+
+
+.brand-component{
+    .brand-logo-sm{
+        max-width: 50px;
+    }
+    .brand-tagline{
+        color: $container-bg-color;
+        &:hover{
+            text-decoration: none;
+            color: $secondary-color;
+        }
+    }
+}
+
+.index-page-container{
+    height: 100vh;
+    > *{
+        height: 100%;
+    }
+    .index-image{
+        @include mq(768px){
+            width: 50%;
+            background-image: url(../../assets/images/pexels-energepiccom-175039.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.index-form-selector{
+    background-color: $container-bg-color;
+    width: 100%;
+    position: relative;
+    @include mq(768px){
+        width: 50%;
+    }
+    >div{
+        margin-top: 4em;
+    }
+}
+.footer{
+    position: absolute; left: 0; right:0; bottom: 0; width: 100%;text-align: center;
+}
+
+.custom-navbar{
+    background-color: $navbar-background;
+}
+
+.form-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dropdown-menu.default-bg{
+    margin-left:-50% !important;
+}
